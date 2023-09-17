@@ -2,6 +2,8 @@
 
 A python project to extract content and metadata from binary documents and ingests them into Elasticsearch
 
+ - output.json is an extraction of a sample pdf from Tika for evaluation
+
 ## Sample Code Folders
 
 ### Things to note

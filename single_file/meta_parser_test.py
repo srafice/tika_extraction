@@ -1,6 +1,4 @@
 import json
-#import tika
-#tika.initVM()
 from tika import parser
 
 def extract_content_and_metadata(input_file):
@@ -20,7 +18,7 @@ def save_to_json(data, output_file):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    input_filepath = '/Users/syedrafice/Documents/INSTALL/gcap_metadata_extract/docs/CS-25Amendment24.pdf'  # Replace with your file path
+    input_filepath = ''  # Replace with your file path
     output_filepath = 'output.json'  # Replace with desired output file path
 
     result = extract_content_and_metadata(input_filepath)
