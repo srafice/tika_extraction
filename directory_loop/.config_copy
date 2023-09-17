@@ -1,0 +1,6 @@
+DIRECTORY_PATH^
+CLOUD_ID^
+ES_HOST^http://your_elasticsearch_host:port
+INDEX_NAME^meta_extract_all
+ES_USER^
+ES_PASSWORD^
